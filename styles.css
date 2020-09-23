@@ -1,0 +1,130 @@
+
+p{
+font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Kalam', cursive;
+}
+
+h3{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
+
+/* Navbar elements */
+.navbar-brand{
+  font-size: 2rem;
+
+}
+
+.brand-icon{
+  color: #ff4b5c;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.nav-icon{
+  color: #1aa6b7;
+  padding: 1rem 1rem;
+  margin: 2px;
+}
+
+/* Title */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: 'Satisfy', cursive;
+  padding: 1rem 2rem
+}
+
+#title{
+  background-color: #71c9ce;
+  padding: 20px;
+}
+
+.title-image{
+  padding: 20px;
+  border-radius: 30%;
+}
+
+ul{
+  padding-top: 10px;
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 5%;
+}
+
+.download-icon{
+  padding: 4px;
+}
+
+/* Feature section */
+#features{
+  padding: 7% 5%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-icon{
+  font-size: 3.5rem;
+  padding-bottom: 5%;
+}
+.feature-icon:hover{
+  color: black;
+}
+
+/* Testimonials */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #709fb0;
+}
+.testimonial-image{
+  height: 30%;
+  width: 30%;
+  padding: 5%;
+}
+
+
+/* Footer */
+footer{
+  background-color: #cbf1f5;
+  text-align: center;
+  padding: 100px;
+  line-height: 3;
+}
+
+.footer-icon{
+  height: 3%;
+  width: 3%;
+  margin: 1rem 1.5rem;
+
+}
+
+#cta{
+  padding: 10%;
+  background-color: #a6e3e9;
+  text-align: center;
+}
+.download-title{
+  text-align: center;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    margin-left: 50px;
+  }
+}
